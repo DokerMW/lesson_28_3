@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='ru'>
+	<head>
+		<meta charset='UTF-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<meta name='format-detection' content='telephone=no'>
+		<link rel='stylesheet' href='./css/style.css'>
+		<script src="js/script.js" defer></script>
+		<title>Lesson 28</title>
+	</head>
+	<body>
+		<h1>Конвертер валют</h1>
+		<div class="wrapper">
+			<select name="from" id="from-select">
+				<option>Выберите валюту</option>
+				<option value="USD">Доллары</option>
+				<option value="EUR">Евро</option>
+				<option value="RUB">Рубли</option>
+			</select>
+			<select name="to" id="to-select">
+				<option>Выберите валюту</option>
+				<option value="USD">Доллары</option>
+				<option value="EUR">Евро</option>
+				<option value="RUB">Рубли</option>
+			</select>
+			<div>
+				<input type="text" placeholder="Введите сумму">
+			</div>
+			<button class="btn">Конвертировать</button>
+			<span>
+				Итого:
+				<span class="result">0</span>
+			</span>
+		</div>
+	</body>
+</html>
